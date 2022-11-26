@@ -2,6 +2,7 @@ from django.contrib.auth.models import User
 from django.db import models
 from ckeditor.fields import RichTextField
 
+
 class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     CAT = (
