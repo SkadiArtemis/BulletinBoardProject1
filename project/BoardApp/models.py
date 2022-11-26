@@ -17,7 +17,7 @@ class Post(models.Model):
         ('spell_masters', 'Мастера заклинаний')
     )
     category = models.CharField(max_length=15, choices=CAT,verbose_name='Категория')
-    dateCreation = models.DateTimeField(auto_now_add= True)
+    dateCreation = models.DateTimeField(auto_now_add=True)
     title = models.CharField(max_length=256, verbose_name='Название')
     text = RichTextField()
 
