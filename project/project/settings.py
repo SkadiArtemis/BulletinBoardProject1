@@ -42,13 +42,12 @@ INSTALLED_APPS = [
 
     'BoardApp',
     'accounts',
-    'bootstrap4',
+    'bootstrap',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'ckeditor',
     'ckeditor_uploader',
-
 ]
 
 SITE_ID = 1
