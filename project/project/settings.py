@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'board',
+    'BoardApp',
     'accounts',
     'bootstrap4',
     'allauth',
