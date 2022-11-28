@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
     'BoardApp',
     'accounts',
-    'bootstrap',
+    'bootstrap4',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
